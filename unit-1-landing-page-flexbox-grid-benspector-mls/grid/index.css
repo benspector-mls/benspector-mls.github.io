@@ -1,38 +1,45 @@
+/* Reset default styles for easier styling */
 html {
     box-sizing: border-box;
 }
-
 *, *::before, *::after {
     box-sizing: inherit;
 }
+figure {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
 
+/* Set body styles and use the grid display */
 body {
     background: #f0f0f0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
+    
     width: 80%;
     margin: auto;
     padding: 10px 0px;
     max-width: 900px;
     min-width: 625px;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
+/* Header Section */
 header {
     background: #040972;
     color: white;
     border-radius: 5px 5px 0px 0px;
+    
     grid-column: span 4;
+
     display: flex;
     align-items: center;
     flex-flow: column;
 }
-
-aside h2 {
-    margin-left: 10px;
-}
-
 header h1 {
     margin-bottom: 5px;
     font-weight: normal;
@@ -41,29 +48,28 @@ header h4 {
     margin-top: 5px;
 }
 
-main {
-    background: #ffffff;
-}
-
+/* Main Section */
 aside {
     background: #63b0a7;
     grid-column: 1;
 }
-
+aside h2 {
+    margin-left: 10px;
+}
 article {
+    background: #ffffff;
     padding: 10px 7%;
     grid-column: span 3;
 }
-
-img {
-    width: 200px;
+figure {
+    width: 40%;
 }
-
 figcaption {
     font-style: italic;
     font-size: 0.7rem;
 }
 
+/* Footer Section */
 footer {
     background: #f2e9a6;
     height: 80px;
@@ -74,7 +80,6 @@ footer {
     justify-content: space-evenly;
     align-items: center;
 }
-
 footer a {
     font-weight: bold;
     color: black;
