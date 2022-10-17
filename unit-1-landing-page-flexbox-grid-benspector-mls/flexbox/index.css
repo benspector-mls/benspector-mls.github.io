@@ -1,0 +1,98 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #f0f0f0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header, main, footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    max-width: 900px;
+    min-width: 625px;
+}
+
+header {
+    background: #040972;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
+}
+
+aside h2 {
+    margin-left: 10px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+header h4 {
+    margin-top: 5px;
+}
+
+main {
+    background: #ffffff;
+}
+
+aside {
+    background: #63b0a7;
+    flex: 4;
+}
+
+article {
+    padding: 10px 7%;
+    flex: 8;
+}
+
+img {
+    width: 200px;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.7rem;
+}
+
+footer {
+    background: #f2e9a6;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+    border-radius: 0px 0px 5px 5px;
+}
+
+footer a {
+    color: black;
+    font-weight: bold;
+}
+
+/* 
+Parent
+* display: flex
+* flex-direction: 
+    * row - left to right
+    * row-reverse - right to left
+    * column - on top of each other (like display: block)
+* justify-content: (changes orientation when flex-direction changes)
+    * center - Centers the elements center
+    * flex-end - Pack flex items from the end
+    * space-between - Distribute items evenly. The first item is flush with the start, the last is flush with the end 
+    * space-evenly - Distribute items evenly. Items have equal space around them
+* align-items: 
+    * center - vertically aligns to the center
+    * flex-end - vertically aligns to the bottom
+    * stretch - if no height is set, will stretch items to the bottom
+ 
+Child
+* 
+*/
