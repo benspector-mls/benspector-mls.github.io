@@ -1,4 +1,6 @@
-/* Reset default styles for easier styling */
+/* -------------------- */
+/* ----RESET STYLES---- */
+/* -------------------- */
 html {
     box-sizing: border-box;
 }
@@ -13,7 +15,9 @@ img {
     width: 100%;
 }
 
-/* Set body styles and use the grid display */
+/* -------------------- */
+/* ----BODY + GRID----- */
+/* -------------------- */
 body {
     background: #f0f0f0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -28,7 +32,9 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
-/* Header Section */
+/* -------------------- */
+/* -------HEADER------- */
+/* -------------------- */
 header {
     background: #040972;
     color: white;
@@ -48,7 +54,9 @@ header h4 {
     margin-top: 5px;
 }
 
-/* Main Section */
+/* -------------------- */
+/* --------MAIN-------- */
+/* -------------------- */
 aside {
     background: #63b0a7;
     grid-column: 1;
@@ -69,7 +77,9 @@ figcaption {
     font-size: 0.7rem;
 }
 
-/* Footer Section */
+/* -------------------- */
+/* -------FOOTER------- */
+/* -------------------- */
 footer {
     background: #f2e9a6;
     height: 80px;

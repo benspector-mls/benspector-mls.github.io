@@ -30,9 +30,13 @@ textarea,
 select {
   font: inherit;
 }
+
+
+/* ----------------------- */
+/* -------ELEMENTS-------- */
+/* ----------------------- */
 body {
     min-height: 100vh;
-    text-rendering: optimizeSpeed;
     line-height: 1.5;
     font-family: 'Lato', sans-serif;
     min-width: 300px;
@@ -44,6 +48,25 @@ a {
     text-decoration: none;
     color: black;
     margin-left: 1em;
+}
+
+/* ----------------------- */
+/* -----UTILITIES--------- */
+/* ----------------------- */
+.fixed {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    gap: 0.5em;
+}
+
+.flex-column {
+    flex-direction: column;
+    align-items: center;
 }
 
 /* ----------------------- */
@@ -154,25 +177,6 @@ footer.flex-container {
 .copyright {
     font-style: italic;
     color: grey;
-}
-
-/* ----------------------- */
-/* -----UTILITIES--------- */
-/* ----------------------- */
-.fixed {
-    position: sticky;
-    top: 0px;
-    width: 100%;
-}
-
-.flex-container {
-    display: flex;
-    gap: 0.5em;
-}
-
-.flex-column {
-    flex-direction: column;
-    align-items: center;
 }
 
 /* ----------------------- */
