@@ -18,6 +18,7 @@ Before building your own portfolio, take time to study these example portfolios.
 | `example-3/` | Jordan Kim     | Neo-brutalist, bold & edgy         | Archivo Black + Space Mono   |
 | `example-4/` | Sam Rivera     | Synthwave/retro, futuristic        | Orbitron + Rajdhani          |
 | `example-5/` | Maya Rodriguez | Light editorial, warm & elegant    | Cormorant Garamond + DM Sans |
+| `example-6/` | Jordan Kim     | Neo-brutalist with **sidebar nav** | Archivo Black + Space Mono   |
 
 **All examples include:**
 - ~180 lines of HTML
@@ -62,6 +63,7 @@ Each portfolio uses custom fonts to create a distinct personality.
 | 3       | Archivo Black      | Space Mono | Bold, edgy, technical      |
 | 4       | Orbitron           | Rajdhani   | Futuristic, sci-fi         |
 | 5       | Cormorant Garamond | DM Sans    | Elegant, editorial         |
+| 6       | Archivo Black      | Space Mono | Bold, edgy (sidebar nav)   |
 
 **Questions to consider:**
 - Which portfolios use **serif fonts** for headings? Which use **sans-serif**?
@@ -76,12 +78,13 @@ Each portfolio uses custom fonts to create a distinct personality.
 
 ### 3. Navigation Design
 
-All portfolios have a sticky navigation bar with the same four links, but they look very different.
+All portfolios have sticky navigation with the same four links, but they look very different. Most use a **top navigation bar**, while example-6 uses a **sidebar navigation** (visible on desktop).
 
 **Questions to consider:**
 - How does each portfolio style its **logo**? (Initials, full name, icon, etc.)
 - What happens when you **hover** over nav links? (Underlines, background changes, color shifts)
 - How are the nav links **formatted**? (ALL CAPS vs. lowercase, brackets, etc.)
+- Compare the **top nav** (examples 0-5) vs. **sidebar nav** (example 6)—when might you choose one over the other?
 - Which navigation feels most intuitive to you?
 
 **Your notes:**
