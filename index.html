@@ -4,25 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ben Spector's Github Page</title>
+    <title>Sample Portfolio Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+        ul {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .project-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+        }
+
+        .project-list li {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-list li:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-2px);
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <h1>Ben Spector's Projects</h1>
-        <p>Marcy Lab School</p>
+        <h1>Sample Portfolio Projects</h1>
     </header>
     <main>
-        <section class="unit1">
-            <h2>Unit 1: HTML & CSS</h2>
-            <ul>
-                <li><a href="./unit-1-abstract-art-benspector-mls/">Abstract Art</a></li>
-                <li>
-                    <a href="./unit-1-landing-page-flexbox-grid-benspector-mls/flexbox/">Landing Page (Flexbox)</a> | 
-                    <a href="./unit-1-landing-page-flexbox-grid-benspector-mls/grid/">Landing Page (Grid)</a>
-                </li>
-                <li><a href="./unit-1-forms-quiz-your-friends/">Form Quiz Your Friends</a></li>
-                <li><a href="./unit-1-combining-it-all-html-css-lab/">Combining it all</a></li>
-                <li><a href="./unit-1-product-landing-page-benspector-mls/">Product Page</a></li>
+        <section id="web-dev-project-examples">
+            <h2>Personal Portfolio Examples</h2>
+            <ul class="project-list">
+                <li><a href="./examples/example-0/index.html"><strong>Jamie Torres</strong> <br> Light theme, mint fresh & friendly</a></li>
+                <li><a href="./examples/example-1/index.html"><strong>Morgan Blake</strong> <br> Dark theme, elegant & refined</a></li>
+                <li><a href="./examples/example-2/index.html"><strong>Alex Chen</strong> <br> Dark theme, modern & vibrant</a></li>
+                <li><a href="./examples/example-3/index.html"><strong>Jordan Kim</strong> <br> Neo-brutalist, bold & edgy</a></li>
+                <li><a href="./examples/example-4/index.html"><strong>Sam Rivera</strong> <br> Synthwave/retro, futuristic</a></li>
+                <li><a href="./examples/example-5/index.html"><strong>Maya Rodriguez</strong> <br> Light editorial, warm & elegant</a></li>
             </ul>
         </section>
     </main>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maya Rodriguez | Creative Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <a href="#home" class="logo">Maya<span class="logo-accent">R</span>odriguez</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Home Section -->
+      <section id="home">
+        <p class="eyebrow">Creative Developer</p>
+        <h1>Crafting <em>thoughtful</em> digital experiences</h1>
+        <p class="intro">I design and build websites that feel intentional, accessible, and human.</p>
+        <div class="home-buttons">
+          <a href="#projects" class="btn-text">
+            <span>See my work</span>
+            <span class="btn-line"></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <div class="section-header">
+          <span class="section-number">01</span>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-content">
+          <img
+            src="https://media.newyorker.com/photos/64123041652f9d9fe976fff0/1:1/w_1781,h_1781,c_limit/ra1146.jpg"
+            alt="Maya Rodriguez"
+            class="about-image"
+          />
+          <div class="about-text">
+            <p class="about-lead">
+              I'm Maya, a developer and designer based in Austin, Texas. I believe the best digital products emerge when aesthetics and
+              functionality work in harmony.
+            </p>
+            <p>
+              With a background in visual arts and computer science, I bring a unique perspective to every project. I'm passionate about
+              creating inclusive web experiences that delight users while meeting business goals.
+            </p>
+            <p>
+              When I'm not at my desk, you'll find me at local art museums, tending to my plant collection, or experimenting with new recipes
+              in the kitchen.
+            </p>
+          </div>
+          <div class="skills">
+            <h3>Skills</h3>
+            <ul class="skills-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="section-header">
+          <span class="section-number">02</span>
+          <h2>Selected Work</h2>
+        </div>
+        <p class="section-intro">A curated selection of projects I've had the pleasure of working on.</p>
+        <ul class="projects-grid">
+          <li class="project-card">
+            <div class="project-image">01</div>
+            <div class="project-info">
+              <h3>Bloom</h3>
+              <p class="project-type">E-commerce Website</p>
+              <ul class="project-tags">
+                <li>React</li>
+                <li>Stripe</li>
+                <li>Sanity CMS</li>
+              </ul>
+              <div class="project-links">
+                <a href="#">Live Demo →</a>
+                <a href="#">GitHub →</a>
+              </div>
+            </div>
+          </li>
+          <li class="project-card">
+            <div class="project-image">02</div>
+            <div class="project-info">
+              <h3>Mindful</h3>
+              <p class="project-type">Meditation App</p>
+              <ul class="project-tags">
+                <li>React Native</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+              </ul>
+              <div class="project-links">
+                <a href="#">Live Demo →</a>
+                <a href="#">GitHub →</a>
+              </div>
+            </div>
+          </li>
+          <li class="project-card">
+            <div class="project-image">03</div>
+            <div class="project-info">
+              <h3>Chronicle</h3>
+              <p class="project-type">Blog Platform</p>
+              <ul class="project-tags">
+                <li>Next.js</li>
+                <li>PostgreSQL</li>
+                <li>Tailwind</li>
+              </ul>
+              <div class="project-links">
+                <a href="#">Live Demo →</a>
+                <a href="#">GitHub →</a>
+              </div>
+            </div>
+          </li>
+          <li class="project-card">
+            <div class="project-image">04</div>
+            <div class="project-info">
+              <h3>Gather</h3>
+              <p class="project-type">Event Platform</p>
+              <ul class="project-tags">
+                <li>Vue.js</li>
+                <li>Firebase</li>
+                <li>Maps API</li>
+              </ul>
+              <div class="project-links">
+                <a href="#">Live Demo →</a>
+                <a href="#">GitHub →</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="section-header">
+          <span class="section-number">03</span>
+          <h2>Get In Touch</h2>
+        </div>
+        <p class="contact-intro">Have a project in mind? I'd love to hear about it. Let's create something meaningful together.</p>
+        <div class="contact-content">
+          <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="hello@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Message →</button>
+          </form>
+          <div class="contact-info">
+            <div class="contact-block">
+              <h3>Email</h3>
+              <a href="mailto:maya@example.com">maya@example.com</a>
+            </div>
+            <div class="contact-block">
+              <h3>Social</h3>
+              <ul class="social-links">
+                <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+              </ul>
+            </div>
+            <div class="contact-block">
+              <h3>Location</h3>
+              <p>Austin, TX</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 Maya Rodriguez. All rights reserved.</p>
+      <a href="#home" class="footer-back">Back to top ↑</a>
+    </footer>
+  </body>
+</html>

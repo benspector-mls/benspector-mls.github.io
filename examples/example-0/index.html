@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamie Torres | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <p class="logo">Jamie Torres</p>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Home Section -->
+      <section id="home">
+        <h1>Hi, I'm Jamie 👋</h1>
+        <p class="tagline">A web developer who loves building things for the internet.</p>
+        <p class="intro">
+          I'm a student at Marcy Lab School learning to create beautiful, accessible websites. I'm passionate about clean code and great
+          user experiences.
+        </p>
+        <div class="home-buttons">
+          <a href="#projects" class="btn btn-primary">See My Work</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a software engineering fellow at The Marcy Lab School in Brooklyn, NY. Before Marcy, I worked in retail and discovered my
+              love for problem-solving through self-taught coding tutorials.
+            </p>
+            <p>
+              When I'm not coding, you can find me playing basketball, trying new restaurants, or binge-watching sci-fi shows. I'm always
+              looking for new challenges and opportunities to grow as a developer.
+            </p>
+          </div>
+          <div class="skills">
+            <h3>Skills</h3>
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>My Projects</h2>
+        <ul class="projects-grid">
+          <li class="project-card">
+            <div class="project-image">Project 1</div>
+            <h3>Task Manager App</h3>
+            <p>A simple to-do list app that helps you stay organized and productive.</p>
+            <ul class="project-tags">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </li>
+          <li class="project-card">
+            <div class="project-image">Project 2</div>
+            <h3>Weather Dashboard</h3>
+            <p>Check the weather forecast for any city using a weather API.</p>
+            <ul class="project-tags">
+              <li>React</li>
+              <li>API</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </li>
+          <li class="project-card">
+            <div class="project-image">Project 3</div>
+            <h3>Recipe Finder</h3>
+            <p>Search and save your favorite recipes from around the world.</p>
+            <ul class="project-tags">
+              <li>React</li>
+              <li>Node.js</li>
+              <li>MongoDB</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </li>
+          <li class="project-card">
+            <div class="project-image">Project 4</div>
+            <h3>Portfolio Site</h3>
+            <p>This very website! Built to showcase my work and skills.</p>
+            <ul class="project-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Responsive</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Get In Touch</h2>
+        <p class="contact-intro">
+          I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel free to reach out!
+        </p>
+        <div class="contact-content">
+          <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <div class="contact-info">
+            <h3>Other Ways to Connect</h3>
+            <ul class="contact-links">
+              <li>
+                <a href="mailto:jamie@example.com">📧 jamie@example.com</a>
+              </li>
+              <li>
+                <a href="https://github.com" target="_blank">💻 GitHub</a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank">💼 LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>Made with ❤️ by Jamie Torres | © 2026</p>
+    </footer>
+  </body>
+</html>

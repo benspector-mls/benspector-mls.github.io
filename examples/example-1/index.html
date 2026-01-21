@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morgan Blake | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <p class="logo">MB</p>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Home Section -->
+      <section id="home">
+        <h1>Morgan Blake</h1>
+        <p class="tagline">Web Developer & Creative Problem Solver</p>
+        <p class="intro">
+          I build thoughtful digital experiences that combine clean code with elegant design. Currently studying software engineering at The
+          Marcy Lab School.
+        </p>
+        <div class="home-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a software engineering fellow passionate about creating websites that are both beautiful and functional. I believe good
+              design should be invisible—it just works.
+            </p>
+            <p>
+              Before tech, I studied English literature, which taught me the power of storytelling. Now I tell stories through code,
+              crafting experiences that connect with users on a human level.
+            </p>
+            <p>Outside of coding, I enjoy reading science fiction, exploring coffee shops, and practicing photography.</p>
+          </div>
+          <div class="skills">
+            <h3>Technical Skills</h3>
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Git</li>
+              <li>PostgreSQL</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>Selected Projects</h2>
+        <ul class="projects-grid">
+          <li class="project-card">
+            <div class="project-image">01</div>
+            <div class="project-info">
+              <h3>Bookshelf</h3>
+              <p>A reading tracker app to organize your library and track reading goals.</p>
+              <ul class="project-tags">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Site →</a>
+                <a href="#" class="project-link">GitHub →</a>
+              </div>
+            </div>
+          </li>
+          <li class="project-card">
+            <div class="project-image">02</div>
+            <div class="project-info">
+              <h3>Weatherly</h3>
+              <p>A minimal weather app with beautiful visuals and 5-day forecasts.</p>
+              <ul class="project-tags">
+                <li>JavaScript</li>
+                <li>API</li>
+                <li>CSS</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Site →</a>
+                <a href="#" class="project-link">GitHub →</a>
+              </div>
+            </div>
+          </li>
+          <li class="project-card">
+            <div class="project-image">03</div>
+            <div class="project-info">
+              <h3>Quill</h3>
+              <p>A distraction-free writing app for focused creative work.</p>
+              <ul class="project-tags">
+                <li>React</li>
+                <li>LocalStorage</li>
+                <li>Markdown</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Site →</a>
+                <a href="#" class="project-link">GitHub →</a>
+              </div>
+            </div>
+          </li>
+          <li class="project-card">
+            <div class="project-image">04</div>
+            <div class="project-info">
+              <h3>This Portfolio</h3>
+              <p>My personal portfolio site, designed and built from scratch.</p>
+              <ul class="project-tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Responsive</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Site →</a>
+                <a href="#" class="project-link">GitHub →</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Let's Connect</h2>
+        <p class="contact-intro">
+          I'm always open to discussing new projects, creative ideas, or opportunities to be part of something great.
+        </p>
+        <div class="contact-content">
+          <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <div class="contact-info">
+            <h3>Find Me Online</h3>
+            <ul class="contact-links">
+              <li>
+                <a href="mailto:morgan@example.com">morgan@example.com</a>
+              </li>
+              <li>
+                <a href="https://github.com" target="_blank">GitHub</a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>Designed & Built by Morgan Blake · 2026</p>
+    </footer>
+  </body>
+</html>

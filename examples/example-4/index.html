@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sam Rivera | Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <a href="#home" class="logo">SAM<span class="logo-dot">.</span>DEV</a>
+      <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Home Section -->
+      <section id="home">
+        <p class="greeting">WELCOME_TO</p>
+        <h1><span class="name-glow">SAM</span> <span class="name-outline">RIVERA</span></h1>
+        <p class="tagline">[FULL-STACK DEVELOPER]</p>
+        <p class="intro">Crafting digital experiences from the future. Specializing in web applications that push boundaries.</p>
+        <div class="home-buttons">
+          <a href="#projects" class="btn btn-neon">EXPLORE WORK ▶</a>
+          <a href="#contact" class="btn btn-ghost">CONNECT</a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <h2>// ABOUT<span class="accent">_ME</span></h2>
+        <div class="about-content">
+          <img
+            src="https://media.newyorker.com/photos/64123041652f9d9fe976fff0/1:1/w_1781,h_1781,c_limit/ra1146.jpg"
+            alt="Sam Rivera"
+            class="about-image"
+          />
+          <div class="about-text">
+            <p class="text-highlight">
+              I'm a developer who lives at the intersection of <em class="neon-text">code</em> and
+              <em class="neon-text cyan">creativity</em>.
+            </p>
+            <p>
+              Based in Los Angeles, I build web applications that are fast, accessible, and visually striking. I believe technology should
+              feel like magic—seamless, intuitive, and delightful.
+            </p>
+            <p>When I'm not coding, I'm producing electronic music, exploring retro gaming, or chasing the perfect sunset photo.</p>
+          </div>
+          <div class="skills">
+            <h3>⚙ TECH STACK</h3>
+            <ul class="skills-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>// PROJECTS<span class="accent">_</span></h2>
+        <ul class="projects-grid">
+          <li class="project-card">
+            <div class="project-image">01</div>
+            <h3>SYNTHWAVE FM</h3>
+            <p>Retro-styled internet radio player with visualizer</p>
+            <ul class="project-tags">
+              <li>React</li>
+              <li>Web Audio</li>
+              <li>Canvas</li>
+            </ul>
+            <div class="project-links">
+              <a href="#">Live Demo →</a>
+              <a href="#">GitHub →</a>
+            </div>
+          </li>
+          <li class="project-card">
+            <div class="project-image">02</div>
+            <h3>NEON DB</h3>
+            <p>Real-time database dashboard with dark mode</p>
+            <ul class="project-tags">
+              <li>Next.js</li>
+              <li>PostgreSQL</li>
+              <li>Charts</li>
+            </ul>
+            <div class="project-links">
+              <a href="#">Live Demo →</a>
+              <a href="#">GitHub →</a>
+            </div>
+          </li>
+          <li class="project-card">
+            <div class="project-image">03</div>
+            <h3>GRIDLOCK</h3>
+            <p>Puzzle game inspired by 80s arcade classics</p>
+            <ul class="project-tags">
+              <li>JavaScript</li>
+              <li>Canvas</li>
+              <li>PWA</li>
+            </ul>
+            <div class="project-links">
+              <a href="#">Live Demo →</a>
+              <a href="#">GitHub →</a>
+            </div>
+          </li>
+          <li class="project-card">
+            <div class="project-image">04</div>
+            <h3>CHROMAKEY</h3>
+            <p>Color palette generator for designers</p>
+            <ul class="project-tags">
+              <li>Vue.js</li>
+              <li>Color API</li>
+              <li>LocalStorage</li>
+            </ul>
+            <div class="project-links">
+              <a href="#">Live Demo →</a>
+              <a href="#">GitHub →</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>// CONTACT<span class="accent">_</span></h2>
+        <p class="contact-intro">
+          Ready to bring your <span class="neon-text">vision</span> to life? Let's create something extraordinary.
+        </p>
+        <div class="contact-content">
+          <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">NAME_</label>
+                <input type="text" id="name" name="name" placeholder="Enter name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">EMAIL_</label>
+                <input type="email" id="email" name="email" placeholder="Enter email" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">MESSAGE_</label>
+              <textarea id="message" name="message" placeholder="Your message..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-neon btn-full">TRANSMIT MESSAGE ▶</button>
+          </form>
+          <div class="contact-info">
+            <h3>Other Ways to Connect</h3>
+            <ul class="contact-links">
+              <li>
+                <a href="mailto:sam@example.com">@ sam@example.com</a>
+              </li>
+              <li>
+                <a href="https://github.com" target="_blank">⌘ github.com/samrivera</a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank">◉ linkedin.com/in/samrivera</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 SAM RIVERA // ALL SYSTEMS OPERATIONAL</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com" target="_blank">GH</a></li>
+        <li><a href="https://linkedin.com" target="_blank">LI</a></li>
+        <li><a href="https://twitter.com" target="_blank">TW</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
